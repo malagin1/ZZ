@@ -26,7 +26,7 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <TextBlock Grid.Column="1" Grid.ColumnSpan="2" Text="  Регистрация бегуна  " FontSize="25" HorizontalAlignment="Center" Margin="88,5,52,1" Width="260"></TextBlock>
+        <TextBlock Grid.Column="1" Grid.ColumnSpan="2" Text="  Регистрация бегуна  " FontSize="25" HorizontalAlignment="Center" Margin="82,-4,53.5,10" Width="260"></TextBlock>
         <TextBlock Grid.ColumnSpan="4" Grid.Row="1" Text=" Пожалуйста заполните всю информацию, чтобы зарегистрироваться в качестве бегуна" FontSize="15" HorizontalAlignment="Center" Margin="106,5,49,10" Width="636"/>
         <TextBlock Text="Email :" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="40"  FontSize="22" Margin="0,0,10,0" Grid.Row="2" Width="63" />
         <TextBox Name="box1" Grid.Column="1" Grid.Row="2" Margin="0,10,10,10" ></TextBox>
@@ -43,6 +43,7 @@
             <ComboBoxItem Content="Мужской"></ComboBoxItem>
             <ComboBoxItem Content="Женский"></ComboBoxItem>
         </ComboBox>
+        <Button Content="ФОТО" Grid.Row="3" Grid.Column="3" Margin="10.5,10,8,0" Grid.RowSpan="2"></Button>
         <TextBlock Text="Фото файл:" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="24"  FontSize="17" Margin="0,0,10,0" Grid.Row="3" Grid.Column="2" Width="150" />
         <TextBox Name="box7" Grid.Column="2" Grid.Row="4" Margin="10" ></TextBox>
         <TextBlock Text="Дата рождения :" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="40"  FontSize="22" Margin="0,0,10,0" Grid.Column="2" Grid.Row="6" Width="166" />

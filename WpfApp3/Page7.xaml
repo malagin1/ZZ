@@ -17,11 +17,11 @@
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
-        <Button x:Name="Contact" Grid.Row="1" Content="Контакты" FontSize="15" Click="ButtonContact_Click" Margin="180,143,35,38" ></Button>
-        <Button x:Name="RegnaM" Content="Регистрация на марафон" Grid.Row="1" FontSize="15" Click="ButtonRegnaM_Click" Margin="180,10,35,166" />
-        <Button x:Name="RedectP" Content="Редактирование профиля" Grid.Row="1" Margin="180,74,35,98" FontSize="15" Click="ButtonRedactP_Click" ></Button>
-        <Button x:Name="MyRez" Content="Мои результаты" Grid.Column="1" Grid.Row="1" Click="ButtonMyRez_Click" FontSize="15" Margin="35,10,180,166" ></Button>
-        <Button x:Name="MySponsr" Content="Мой спонсор" Click="ButtonMySponsr_Click" Grid.Column="1" Grid.Row="1" FontSize="15" Margin="35,74,180,98" ></Button>
-        <TextBlock Text="Меню бегуна" Grid.Column="0" Grid.ColumnSpan="2" FontSize="40" Margin="273,71,254,81"/>
+        <Button x:Name="Contact" Grid.Row="1" Content="Контакты" FontSize="15" Click="ButtonContact_Click" Margin="312,129,303,28" Grid.ColumnSpan="2" ></Button>
+        <Button x:Name="RegnaM" Content="Регистрация на марафон" Grid.Row="1" FontSize="15" Click="ButtonRegnaM_Click" Margin="180,10,35,147" />
+        <Button x:Name="RedectP" Content="Редактирование профиля" Grid.Row="1" Margin="180,74,35,83" FontSize="15" Click="ButtonRedactP_Click" ></Button>
+        <Button x:Name="MyRez" Content="Мои результаты" Grid.Column="1" Grid.Row="1" Click="ButtonMyRez_Click" FontSize="15" Margin="35,10,180,147" ></Button>
+        <Button x:Name="MySponsr" Content="Мой спонсор" Click="ButtonMySponsr_Click" Grid.Column="1" Grid.Row="1" FontSize="15" Margin="35,74,180,83" ></Button>
+        <TextBlock Text="Меню бегуна" Grid.Column="0" Grid.ColumnSpan="2" FontSize="40" Margin="273,35,254,81"/>
     </Grid>
 </Page>

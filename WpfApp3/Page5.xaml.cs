@@ -39,5 +39,10 @@ namespace ZadanieYLTRO
         {
             this.NavigationService.Navigate(new Page6());
         }
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

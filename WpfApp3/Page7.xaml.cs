@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfApp3;
 
 namespace ZadanieYLTRO
 {
@@ -42,7 +43,7 @@ namespace ZadanieYLTRO
 
         private void ButtonContact_Click(object sender, RoutedEventArgs e)
         {
-
+            this.NavigationService.Navigate(new Page8());
         }
 
         private void ButtonRedactP_Click(object sender, RoutedEventArgs e)

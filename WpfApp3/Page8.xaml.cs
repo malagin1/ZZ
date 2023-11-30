@@ -13,26 +13,23 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ZadanieYLTRO
+namespace WpfApp3
 {
     /// <summary>
-    /// Логика взаимодействия для Page4.xaml
+    /// Логика взаимодействия для Page8.xaml
     /// </summary>
-    public partial class Page4 : Page
+    public partial class Page8 : Page
     {
-        public Page4()
+        public Page8()
         {
             InitializeComponent();
         }
-
-        private void ButtonRegister_Click(object sender, RoutedEventArgs e)
+        private void ButtonOK_Click(object sender, RoutedEventArgs e)
         {
-            this.NavigationService.Navigate(new Page5());
+            this.NavigationService.Navigate(new ZadanieYLTRO.Page7());
         }
 
-        private void ButtonOtmena_Click_1(object sender, RoutedEventArgs e)
-        {
-            this.NavigationService.Navigate(new Page2());
-        }
+        
     }
 }
+        
