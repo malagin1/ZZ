@@ -38,7 +38,7 @@ namespace ZadanieYLTRO
 
         private void ButtonRegnaM_Click(object sender, RoutedEventArgs e)
         {
-
+            this.NavigationService.Navigate(new Page4());
         }
 
         private void ButtonContact_Click(object sender, RoutedEventArgs e)

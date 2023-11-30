@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfApp3;
 
 namespace ZadanieYLTRO
 {
@@ -32,12 +33,12 @@ namespace ZadanieYLTRO
 
         private void ButtonSponsor_Click(object sender, RoutedEventArgs e)
         {
-           
+            this.NavigationService.Navigate(new Page9());
         }
 
         private void ButtonInfo_Click(object sender, RoutedEventArgs e)
         {
-
+           
         }
 
         private void ButtonLogin_Click(object sender, RoutedEventArgs e)
